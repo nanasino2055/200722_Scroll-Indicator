@@ -1,0 +1,38 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.steps{
+  text-align: center;
+  background-color: #aaa;
+  padding: 40px 0px;
+}
+
+.steps h1
+{
+  width: 250px;
+  font-size: 48px;
+  margin:0 auto 24px;
+  border-bottom: 1px solid #000;
+}
+.steps p
+{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.arrow
+{
+
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  background-color: inherit;
+}
