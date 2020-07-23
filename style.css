@@ -6,10 +6,10 @@
   font-family: sans-serif;
 }
 
+
 .steps{
   text-align: center;
-  background-color: #aaa;
-  padding: 40px 0px;
+  padding: 80px 0px 40px;
 }
 
 .steps h1
@@ -27,12 +27,72 @@
 
 .arrow
 {
-
+  position: absolute;
   width: 80px;
   height: 80px;
-  border: 1px solid #000;
-  margin: 0 auto;
-  transform: rotate(-45deg);
+  border: 1px solid #aaa;
+  left: 50%;
+  transform: translateX(-50%)
+             rotate(-45deg);
   transform-origin: top left;
-  background-color: inherit;
+}
+
+.step-one{
+  background-color: #f27c7c;
+}
+.step-one+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #f27c7c;
+  border-left: 40px solid #f27c7c;
+}
+
+.step-tow{
+  background-color: #f2b57c;
+}
+.step-tow+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #f2b57c;
+  border-left: 40px solid #f2b57c;
+}
+
+.step-three{
+  background-color: #e5f27c;
+}
+.step-three+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #e5f27c;
+  border-left: 40px solid #e5f27c;
+}
+
+.step-three{
+  background-color: #e5f27c;
+}
+.step-three+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #e5f27c;
+  border-left: 40px solid #e5f27c;
+}
+
+.step-four{
+  background-color: #81f27c;
+}
+.step-four+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #81f27c;
+  border-left: 40px solid #81f27c;
+}
+
+.step-five{
+  background-color: #7cf2e4;
+}
+.step-five+.arrow{
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #7cf2e4;
+  border-left: 40px solid #7cf2e4;
 }
